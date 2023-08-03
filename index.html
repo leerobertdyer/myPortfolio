@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lee Dyer - Coder/Musician</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="home">
+    <div class="topnav">
+        <a href="#home" class="active">Lee Dyer</a>
+
+        <div id="myLinks">
+            <a href="#link1">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <header>
+<h1>Lee Robert Dyer</h1>
+    </header>
+
+    <br><br>
+
+    <div class="text intro">
+        <div class="text subIntro">
+            <h2>Hi There!</h2>
+            <div id="link1"></div>
+            <p class="intro">My name is Lee. I'm a musician, coder, and dude of life.</p>
+        </div>
+    </div>
+
+    <div class="photoBox">
+        <h1 id="projects">Current Projects:</h1>
+
+        <div id="photos">
+            <a href="https://www.wifeislandduo.com/" target="blank">
+                <figure>
+                    <img src="images/wifeIsland.jpg" alt="boom box">
+                    <figcaption>Wife Island</figcaption>
+                </figure>
+            </a>
+
+            <a href="https://github.com/leerobertdyer"target="blank">
+            <figure id="gitHub">
+                <img src="images/github.jpeg" alt="guitar">
+                <figcaption>My Github</figcaption>
+            </figure></a>
+
+            <a href="https://www.auntvicki.rocks/" target="blank">
+                <figure>
+                    <img src="images/auntV.jpg" alt="record player">
+                    <figcaption>Aunt Vicki</figcaption>
+                </figure>
+            </a>
+
+            <a href="https://tmoagt.bandcamp.com/album/squidmouth"target="blank">
+            <figure>
+                <img src="images/records.jpg" alt="records">
+                <figcaption>Old Music</figcaption>
+            </figure></a>
+            
+            <a href="https://leerobertdyer.wixsite.com/writeabadsong"target="blank">
+            <figure>
+                <img src="images/retroMic.jpg" alt="microphone">
+                <figcaption>Songwriting</figcaption>
+            </figure>
+        </a>
+
+            <a href="https://linktr.ee/leedyer" target="blank">
+                <figure>
+                    <img src="images/yellowHeadphones.jpg" alt="headphones">
+                    <figcaption>My Music</figcaption>
+                </figure>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="text">
+
+
+        <div class="text">
+            <h2>Reasons to hire me:</h2>
+            <ul id="reasons">
+                <li>I'm energetic and engaging</li>
+                <li>This inspiring pre-course portfolio!</li>
+                <li>All the projects I will soon be adding <a href="https://github.com/leerobertdyer" target="blank">here</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="contact"></div>
+    <form id="submitForm" method="post">
+        <h2>Hit Me Up!</h2>
+        <input type="text" placeholder="Your Name*" name="name" required>
+        <input type="email" placeholder="yourEmail@yourWebsite.com" name="email" required>
+        <legend>Select what you're interested in:</legend>
+        <div class="inline">
+            <input type="radio" id="formMusic" name="interests" value="music">
+            <label for="formMusic">Music Production</label>
+        </div>
+        <div class="inline">
+            <input type="radio" id="formSoftware" name="interests" value="formSoftware">
+            <label for="formSoftware">Software Engineering</label>
+        </div>
+        <div class="inline">
+            <input type="radio" id="formBoth" name="interests" value="both">
+            <label for="formBoth">Both</label>
+        </div>
+        <div class="inline">
+            <input type="radio" id="formOther" name="interests" value="other">
+            <label for="other">Other</label>
+        </div>
+        </div>
+
+        <input type="submit" id="submit">
+    </form>
+
+    <footer>
+        <div id="foot">
+           <a href=#home> <h2 id="end">Back 2 Top</h2></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

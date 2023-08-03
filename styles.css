@@ -1,0 +1,299 @@
+root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+body {
+    background-color: black;
+    background-image: url("images/meOnPiano.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-attachment: fixed;
+    color: antiquewhite;
+    padding: 0;
+    width: 100%;
+    top: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    padding-top: 20px;
+    margin-left: -8px;
+    width: 100%;
+    height: 100px;
+    border-bottom: double 3px goldenrod;
+    background-color: rgba(0, 0, 0, .9);
+    color: whitesmoke;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    margin-top: 6px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #422c0a;
+    position: relative;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 0;
+
+}
+
+
+.topnav #myLinks {
+    display: none;
+}
+
+
+.topnav a {
+    color: antiquewhite;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    display: block;
+
+
+}
+
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: whitesmoke;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-bottom: 0;
+    width: 50px;
+    text-align: center;
+
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #c7006a;
+    color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background-color: rgb(193, 139, 3);
+    color: white;
+}
+
+
+
+
+
+nav {
+    top: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+#close {
+    justify-self: end;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-family: fantasy;
+    text-align: center;
+    margin: 0;
+    color: antiquewhite;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: fantasy, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    text-align: center;
+    font-style: italic;
+    flex-wrap: wrap;
+}
+
+figure {
+    text-align: center;
+    font-family: fantasy;
+    padding: 5px;
+    margin: 0;
+    border-radius: 10px;
+    transition: all .25s;
+}
+
+figure:hover {
+    transform: rotate(5deg);
+    background-color: white
+}
+
+#gitHub:hover {
+    animation: gitHub 3s linear infinite;
+}
+
+figcaption {
+    margin-top: -0px;
+    color: palevioletred;
+    border-radius: 40px;
+    font-weight: bolder;
+    font-size: 1.2em;
+
+}
+
+.photoBox {
+    background-color: rgba(219, 158, 2, 0.751);
+    border: solid black 5px;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 8%;
+
+
+}
+
+#photos {
+    color: black;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: antiquewhite;
+    padding: 2vmax;
+    justify-content: space-around;
+    margin: 2% 10% 5% 10%;
+    border: solid 1px;
+    border-radius: 22px;
+
+}
+
+#photos img {
+    width: 15vmax;
+    height: 15vmax;
+    border: solid white 3px;
+    border-radius: 12px;
+    margin: 10px;
+    object-fit: cover;
+
+}
+
+.intro {
+    width: 60%;
+    font-size: 3vw;
+    font-family: fantasy;
+    text-align: center;
+    margin-left: 20%;
+}
+
+
+.text {
+    padding: 2vmax;
+    background-color: rgba(15, 190, 221, 0.75);
+    color: black;
+    font-size: 2.75vmax;
+    /* border: double antiquewhite 5px; */
+    margin: 40px;
+}
+
+li a {
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+li a:hover {
+    color: red;
+
+}
+
+#submitForm {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 25px;
+    background-color: antiquewhite;
+    border: solid black 5px;
+    padding: 20px;
+    display: flex;
+    flex-flow: wrap column;
+}
+
+input {
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 4px;
+}
+
+label {
+    color: black;
+}
+
+legend {
+    color: black;
+    text-align: center;
+}
+
+.inline {
+    display: block;
+}
+
+#submit {
+    margin-top: 4px;
+    background-color: #6ac700
+}
+
+#submit:hover {
+    background-color: rgb(193, 139, 3);
+}
+
+footer {
+    margin-bottom: -10px;
+    padding: 0px;
+    margin-left: -8px;
+    border-top: dashed rgba(0, 251, 255, 0.724) 4px;
+}
+
+#foot {
+    background-color: antiquewhite;
+    margin-bottom: 0;
+    margin-left: -8px;
+}
+
+#end {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 30%;
+    margin-left: 35%;
+
+}
+
+@keyframes gitHub {
+    0% {
+        transform: rotate(0);
+        background-color: orange;
+    }
+
+    50% {
+        transform: scale(170%);
+        background-color: white;
+    }
+
+    100% {
+        transform: scale(100%);
+        background-color: orange;
+    }
+}
