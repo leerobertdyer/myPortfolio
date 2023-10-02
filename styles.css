@@ -7,7 +7,7 @@ root {
 
 body {
     background-color: black;
-    background-image: url("images/meOnPiano.jpeg");
+    background-image: url("images/layingOnPiano.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
@@ -261,15 +261,15 @@ legend {
 
 footer {
     margin-bottom: -10px;
-    padding: 0px;
     margin-left: -8px;
-    border-top: dashed rgba(0, 251, 255, 0.724) 4px;
 }
 
 #foot {
-    background-color: antiquewhite;
+    background-color: goldenrod;
+    margin-top: 50px;
     margin-bottom: 0;
     margin-left: -8px;
+    padding: 50px;
 }
 
 #end {
